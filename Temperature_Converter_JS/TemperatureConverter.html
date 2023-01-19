@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" src="TemperatureConverter.css">
+    </link>
+
+</head>
+
+<body style="background-color:#f8e7af">
+    <div style="margin: 100px; padding: 100px; background-color: orange; width: 50%; align-items: center;">
+    <form id="tempCalc" onsubmit="CalculateTemp(); return false">
+        <br /><label style="font-size: large; text-align: center;">Place Enter Temperature</label>
+        <br />
+        <input type="number" id="temp" name="temp">
+
+
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">Celsius</option>
+            <option value="fah">Fahrenheit</option>
+        </select><br />
+
+        <input type="submit" name="temp">
+        <input type="reset"><br /><br/>
+
+        <span id="resultContainer"></span>
+
+    </form>
+</div>
+
+    <script src="TemperatureConverter.js"></script>
+</body>
+
+</html>

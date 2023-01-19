@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "mulish", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8e7af;
+    display: grid;
+    place-items: center;
+}
+
+#tempCalc {
+    font-size: 30px;
+}
+
+form {
+    background-color: #f8e7af;
+    padding: 80px;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
